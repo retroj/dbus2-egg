@@ -1,5 +1,5 @@
 ;(use dbus)
-(use (prefix dbus dbus:))
+(use (prefix dbus2 dbus:))
 
 (define connman-bus dbus:system-bus) ;; in real life
 ; (define connman-bus dbus:session-bus) ;; for connman-simulator without root privs

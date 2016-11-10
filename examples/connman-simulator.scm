@@ -3,7 +3,7 @@
 ;; which you can test with connman-ethernet.scm, connman-technologies.scm
 ;; and relevant parts of introspect-connman.scm
 
-(use (prefix dbus dbus:))
+(use (prefix dbus2 dbus:))
 
 (define ethernet-props
 	`(#(("Type" . ,(dbus:make-variant "ethernet"))

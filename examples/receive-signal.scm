@@ -1,4 +1,4 @@
-(use (prefix dbus dbus:))
+(use (prefix dbus2 dbus:))
 
 (define (signal . parms) (printf "got signal ~s~%" parms))
 

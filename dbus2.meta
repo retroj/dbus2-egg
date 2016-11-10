@@ -1,0 +1,10 @@
+;;; dbus2.meta -*- Scheme -*-
+
+((synopsis "A binding for libdbus, the IPC mechanism")
+ (category os)
+ (license "MIT")
+ ;(depends easyffi protobj matchable miscmacros foreigners)
+ (depends easyffi matchable miscmacros foreigners)
+ (doc-from-wiki)
+ (author "Shawn Rutledge")
+ (maintainer "John J. Foerch"))
