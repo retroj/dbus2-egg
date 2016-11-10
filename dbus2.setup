@@ -5,4 +5,4 @@
 
 (install-extension 'dbus2
 	`("dbus2.so" "dbus2.import.so")
-	`((version "0.93")))
+	`((version "0.94")))
