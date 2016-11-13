@@ -1,4 +1,4 @@
-(use (prefix dbus dbus:))
+(use (prefix dbus2 dbus:))
 
 (define ctxt (dbus:make-context
 	service: 'test.method.server

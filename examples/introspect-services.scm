@@ -1,4 +1,4 @@
-(use (prefix dbus dbus:))
+(use (prefix dbus2 dbus:))
 
 ;; the actual dbus call to get known service names:
 ; (define ctxt (dbus:make-context

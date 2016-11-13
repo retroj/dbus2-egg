@@ -1,0 +1,8 @@
+;;;; dbus2.setup -*- Scheme -*-
+
+(compile -s -O3 -d1 dbus2.scm -C "`pkg-config --cflags dbus-1`" -L "`pkg-config --libs dbus-1`" -j dbus2)
+(compile -s -O3 -d1 dbus2.import.scm)
+
+(install-extension 'dbus2
+	`("dbus2.so" "dbus2.import.so")
+	`((version "0.94")))

@@ -1,6 +1,6 @@
-;;;; dbus.scm
+;;;; dbus2.scm
 
-(module dbus (make-context
+(module dbus2 (make-context
 		send
 		call
 		make-method-proxy

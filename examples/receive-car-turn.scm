@@ -1,4 +1,4 @@
-(use (prefix dbus dbus:))
+(use (prefix dbus2 dbus:))
 
 (dbus:default-signal-handler (lambda (ctx mber args)
 	((dbus:printing-signal-handler) ctx mber args)

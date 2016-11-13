@@ -1,0 +1,13 @@
+;; dbus2.release-info -*- scheme -*-
+
+(repo git "git://github.com/retroj/dbus2-egg.git")
+(uri targz "https://github.com/retroj/dbus2-egg/tarball/{egg-release}")
+(release "0.86")
+(release "0.87")
+(release "0.88")
+(release "0.89")
+(release "0.90")
+(release "0.91")
+(release "0.92")
+(release "0.93")
+(release "0.94")

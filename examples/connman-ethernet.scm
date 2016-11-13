@@ -1,4 +1,4 @@
-(use (prefix dbus dbus:))
+(use (prefix dbus2 dbus:))
 
 (define (device-properties device)
   (let ((c (dbus:make-context
