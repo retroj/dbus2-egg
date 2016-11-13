@@ -3,7 +3,7 @@
 ((synopsis "A binding for libdbus, the IPC mechanism")
  (category os)
  (license "MIT")
- (depends matchable miscmacros foreigners)
+ (depends miscmacros foreigners)
  (doc-from-wiki)
  (author "Shawn Rutledge")
  (maintainer "John J. Foerch"))
