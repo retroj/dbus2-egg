@@ -4,5 +4,5 @@
 (compile -s -O3 -d1 dbus2.import.scm)
 
 (install-extension 'dbus2
-	`("dbus2.so" "dbus2.import.so")
-	`((version "0.94")))
+  `("dbus2.so" "dbus2.import.so")
+  `((version "0.94")))
