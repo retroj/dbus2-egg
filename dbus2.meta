@@ -1,7 +1,7 @@
 ;;; dbus2.meta -*- Scheme -*-
 
 ((synopsis "A binding for libdbus, the IPC mechanism")
- (category os)
+ (category obsolete)
  (license "MIT")
  (depends miscmacros foreigners)
  (doc-from-wiki)
